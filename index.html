@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Snow Removal | Northern Wisconsin</title>
+  </head>
+  <body id="mobile" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!-- Navbar Header -->
+    <header>
+      <!-- Navigation menu -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="row align-items-center">
+          <a class="navbar-brand" href="#">Snow Removal</a>
+          <a href="#" class="navbar-brand">|</a>
+          <a href="#" class="navbar-light">Northern Wisconsin</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="main">
+      <div class="mobile-hero">
+          <div class="mobile-content">
+            <div class="top-container">
+              <div class="left-container">
+                <h3>Free Estimates Winter 2019</h3>
+                <p>Don't wait until the snow is here</p>
+                <p>Contact us now and get your free estimate today to reserve your spot for the 2019-2020 season.</p>
+              </div>
+              <div class="right-container">
+                <div class="form-container">
+                  <h2>Contact Us</h2>
+                  <form method="post" class="contact-form" action="contact.php">
+                    <input class="first-name" type="text" name="sender" placeholder="Your Name" required>
+                    <input class="email" type="text" name="senderEmail" placeholder="Your Email" required>
+                    <input class="phone" type="text" name="senderPhone" placeholder="Your Phone" required>
+                    <input class="area" type="text" name="senderLocation" placeholder="Your Location (i.e. Weston, WI)" required>
+                    <input class="btn btnD1" type="submit" name="submit" value="Get Quote">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-content">
+        <div class="bottom-container">
+          <ul>
+            <li class="mobile-feature">
+              <h4>RESIDENTIAL</h4>
+              <p>
+                Driveways, sidewalks, decks. You name it, we clear it.  
+              </p>
+              <p>
+                We also can provide shoveling, snowblowing, and de-icing.
+              </p>
+            </li>
+            <li class="mobile-feature">
+              <h4>COMMERCIAL</h4>
+              <p>
+                We will clear parking lots and driveways. Steps and sidewalks can also be included.
+              </p>
+              <p>
+                Contact us to get a custom quote.
+              </p>
+            </li>
+            <li class="mobile-feature">
+              <h4>SEASONAL CONTRACTS</h4>
+              <p>
+                We offer seasonal contracts. Lock in your rate and get your free estimate today.
+              </p>
+              <p>
+                Reserve your spot before its too late.  
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+
+    <!-- JS Snippets -->
+    <script type="text/javascript">
+
+    // Fixes Navbar Collapse on Click
+    $(document).scroll(function() {
+      $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+    });
+    $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+    });
+
+    </script>
+  </body>
+</html>
